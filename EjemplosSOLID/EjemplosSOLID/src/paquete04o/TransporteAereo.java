@@ -12,7 +12,7 @@ public class TransporteAereo extends Transporte{
     private String aerolineaAvion;
     
     
-    public void establecerCooperativaTransvia(String n){
+    public void establecerAerolineaAvion(String n){
         aerolineaAvion = n;
     }
     

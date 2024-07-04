@@ -26,12 +26,12 @@ public class Principal {
         
         // TransporteAereo
         TransporteAereo taereo1 = new TransporteAereo();
-        taereo1.establecerCooperativaTransvia("Aerolinea USA");
+        taereo1.establecerAerolineaAvion("Aerolinea USA");
         taereo1.establecerTarifa();
         
         // TransporteMaritimo
-        TransporteAereo tmar1 = new TransporteAereo();
-        tmar1.establecerCooperativaTransvia("Cooperativa Titanic");
+        TransporteMaritimo tmar1 = new TransporteMaritimo();
+        tmar1.establecerCooperativaBarco("Cooperativa Titanic");
         tmar1.establecerTarifa();
         
         TiposTransporte tipos = new TiposTransporte();

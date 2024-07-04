@@ -12,7 +12,7 @@ public class TransporteMaritimo extends Transporte{
     private String cooperativaBarco;
     
     
-    public void establecerCooperativaTransvia(String n){
+    public void establecerCooperativaBarco(String n){
         cooperativaBarco = n;
     }
     
