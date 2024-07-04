@@ -24,11 +24,23 @@ public class Principal {
         t1.establecerCooperativaTransvia("Rutas Loja");
         t1.establecerTarifa();
         
+        // TransporteAereo
+        TransporteAereo taereo1 = new TransporteAereo();
+        taereo1.establecerCooperativaTransvia("Aerolinea USA");
+        taereo1.establecerTarifa();
+        
+        // TransporteMaritimo
+        TransporteAereo tmar1 = new TransporteAereo();
+        tmar1.establecerCooperativaTransvia("Cooperativa Titanic");
+        tmar1.establecerTarifa();
+        
         TiposTransporte tipos = new TiposTransporte();
         ArrayList<Transporte> lista = new ArrayList<>();
         lista.add(bus);
         lista.add(taxi);
         lista.add(t1);
+        lista.add(taereo1);
+        lista.add(tmar1);
         tipos.establecerTransportes(lista);
         tipos.establecerPromedioTarifas();
         
