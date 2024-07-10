@@ -9,6 +9,11 @@ package paquete08i;
  *
  * @author reroes
  */
+
+/*
+IMPLEMENTS - Se utiliza para implementar interfaces
+EXTENDS - Se utiliza para implementar clases (herencia)
+*/
 public class EvaluacionEnsayo implements EvaluacionTipoDos {
 
     private int numeroProblemas;
@@ -39,7 +44,12 @@ public class EvaluacionEnsayo implements EvaluacionTipoDos {
         promedioEnsayo = obtenerTotalProblemas() / obtenerNumeroProblemas();
 
     }
-
+    /*
+    Los metodos establecer y obtener PromedioEnsayo se utilizan en esta clase
+    debido a que la misma implementa la interfaz especificada al inicio, por lo
+    tanto, se ve en la obligación de implementar todas las funciones de la
+    interfaz
+    */
     @Override
     public double obtenerPromedioEnsayo() {
         return promedioEnsayo;
